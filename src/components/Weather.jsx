@@ -224,12 +224,10 @@ rounded-xl gap-1
                   <path key={text} className="text-focus-in" d={data.icon} />
                 </svg>
                 <p
-                  key={text}
-                  className=" 
-             text-focus-in weather__data-text"
+                  key={texto}
+                  className=" text-focus-in weather__data-text"
                 >
-                  {data.temp}
-                  {unitsText}
+                  {data.temp} {unitsText}
                 </p>
               </div>
 
